@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loja de Roupas Online</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #333;
+            color: white;
+            padding: 10px 20px;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #444;
+            padding: 10px 0;
+        }
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            margin: 20px auto;
+            max-width: 1200px;
+        }
+        .product {
+            background: white;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            margin: 15px;
+            width: 250px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+        .product img {
+            width: 100%;
+            border-bottom: 1px solid #ddd;
+        }
+        .product h3 {
+            font-size: 18px;
+            padding: 10px;
+            margin: 0;
+        }
+        .product p {
+            padding: 0 10px;
+            color: #666;
+        }
+        .product .price {
+            padding: 10px;
+            color: #333;
+            font-weight: bold;
+        }
+        .product button {
+            display: block;
+            width: calc(100% - 20px);
+            margin: 10px auto;
+            padding: 10px;
+            background-color: #28a745;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+        .product button:hover {
+            background-color: #218838;
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #333;
+            color: white;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Loja de Roupas Online</h1>
+    </header>
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">Produtos</a>
+        <a href="#">Sobre</a>
+        <a href="#">Contato</a>
+    </nav>
+    <div class="container">
+        <!-- Produto 1 -->
+        <div class="product">
+            <img src="/path/to/image1.jpg" alt="Roupa 1">
+            <h3>Camiseta Casual</h3>
+            <p>Confortável e estilosa para o dia a dia.</p>
+            <div class="price">R$ 49,90</div>
+            <button>Comprar Agora</button>
+        </div>
+
+        <!-- Produto 2 -->
+        <div class="product">
+            <img src="/path/to/image2.jpg" alt="Roupa 2">
+            <h3>Calça Jeans</h3>
+            <p>Modelagem moderna e tecido de alta qualidade.</p>
+            <div class="price">R$ 99,90</div>
+            <button>Comprar Agora</button>
+        </div>
+
+        <!-- Produto 3 -->
+        <div class="product">
+            <img src="/path/to/image3.jpg" alt="Roupa 3">
+            <h3>Vestido Elegante</h3>
+            <p>Ideal para eventos especiais.</p>
+            <div class="price">R$ 149,90</div>
+            <button>Comprar Agora</button>
+        </div>
+    </div>
+    <footer>
+        <p>&copy; 2024 Loja de Roupas Online. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
